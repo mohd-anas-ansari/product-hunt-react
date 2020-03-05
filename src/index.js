@@ -2,7 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 //CSS
-import './main.css'
+import './main.scss'
+
 
 //Import components
 import Card from './components/card'
@@ -56,6 +57,5 @@ function Cards() {
 
 
 
-//Rendering
 ReactDOM.render(<Cards />, document.getElementById("root"));
 ReactDOM.render(<HeaderBanner />, document.getElementById("header"));

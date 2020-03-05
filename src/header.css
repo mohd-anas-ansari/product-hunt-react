@@ -1,0 +1,117 @@
+div .header_contianer {
+  width: 100%;
+  background-color: #fff;
+  padding: 12px 0;
+  background: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  height: 66px;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div .header_contianer .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div .header_contianer .header .nav {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+div .header_contianer .header .nav .logo {
+  margin-right: 20px;
+}
+
+div .header_contianer .header .nav .logo img {
+  height: 40px;
+  width: 40px;
+}
+
+div .header_contianer .header .nav .search_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div .header_contianer .header .nav .search_box span {
+  position: absolute;
+  margin: 0 10px;
+}
+
+div .header_contianer .header .nav .search_box input {
+  background-color: #fff;
+  width: 300px;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  height: 35px;
+  padding: 0 10px 0 38px;
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+div .header_contianer .header .nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div .header_contianer .header .nav ul li {
+  display: inline;
+  margin-right: 20px;
+  color: #6f6f6f;
+  font-size: 1rem;
+}
+
+div .header_contianer .header .auth_button {
+  margin-top: 8px;
+}
+
+div .header_contianer .header .auth_button button {
+  height: 30px;
+  margin-left: 8px;
+  background: #fff;
+  border-color: #e8e8e8;
+  color: #000;
+  font-size: 11px;
+  padding: 0 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 3px;
+}
+
+div .header_contianer .header .auth_button .signup_button {
+  background-color: #cc4d29;
+  color: #fff;
+  border: 1px solid #cc4d29;
+}
+
+div .title {
+  width: 50%;
+  margin: 30px auto;
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+}
+/*# sourceMappingURL=header.css.map */
