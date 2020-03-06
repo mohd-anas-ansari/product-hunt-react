@@ -86,6 +86,7 @@ div .header_contianer .header .nav ul li {
 
 div .header_contianer .header .auth_button {
   margin-top: 8px;
+  margin-left: 50px;
 }
 
 div .header_contianer .header .auth_button button {

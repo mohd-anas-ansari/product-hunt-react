@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f3f3f3;
+}
+
+.root-and-sidebars {
+  display: flex;
+}
+
+.card-alignment-container {
+  // background-color: orange;
+  width: 45rem;
+}
+
+.heading-above-cards {
+  display: flex;
+  margin: 40px 15px 10px 15px;
+  justify-content: space-between;
+  padding-top: 10px;
+  
+
+  p {
+    margin: 0;
+    font-weight: 800;
+    font-size: 1.2rem;
+  }
+
+  .sorts {
+    text-transform: uppercase;
+    font-size: 12px;
+
+      span:nth-child(2) {
+        padding-left: 10px
+      }
+  }
+}
+
+.one-card-container {
+	display: flex;
+	border: 1px solid black;
+	margin: 1rem;
+
+  justify-content: space-between;
+}
+
+.check-container {
+  display: flex;
+}
+
+.image-container {
+	margin: 1rem;
+}
+
+.name-description-tag-container {
+	margin: 0.8rem;
+}
+
+.name-description-tag-container h4 {
+	margin: 0;
+}
+
+.upvote-box {
+	border: 1px solid black;
+	width: 64px;
+  height: 80px;
+  margin: 1rem;
+  text-align: center;
+  font-weight: 900;
+  padding-top: 1rem;
+
+  p {
+    margin: 0;
+  }
+
+  button {
+    text-decoration: none;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+}

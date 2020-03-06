@@ -1,5 +1,4 @@
 import React from "react";
-import '../header.scss';
 
 
 function Header() {
@@ -46,8 +45,13 @@ function Header() {
 					</div>
 				</header>
 			</div>
-			<p className="title"> Today </p>
 		</div>
 	);
 }
+
+
+
+
+
+
 export default Header;

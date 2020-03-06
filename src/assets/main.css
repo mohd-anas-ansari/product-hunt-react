@@ -5,6 +5,43 @@
 
 body {
   font-family: "Lato", sans-serif;
+  background-color: #f3f3f3;
+}
+
+.root-and-sidebars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card-alignment-container {
+  width: 45rem;
+}
+
+.heading-above-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 40px 15px 10px 15px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 10px;
+}
+
+.heading-above-cards p {
+  margin: 0;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.heading-above-cards .sorts {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.heading-above-cards .sorts span:nth-child(2) {
+  padding-left: 10px;
 }
 
 .one-card-container {
@@ -13,7 +50,6 @@ body {
   display: flex;
   border: 1px solid black;
   margin: 1rem;
-  width: 45rem;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -49,5 +85,13 @@ body {
 
 .upvote-box p {
   margin: 0;
+}
+
+.upvote-box button {
+  text-decoration: none;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */

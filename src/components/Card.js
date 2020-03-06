@@ -2,7 +2,6 @@ import React from "react";
 
 
 
-
 function Card(props) {
   return (
     <div className='one-card-container'>
@@ -22,7 +21,7 @@ function Card(props) {
         </div>
       </div>
       <div className='upvote-box'>
-        <p><i class="fas fa-sort-up"></i></p>
+        <button onClick><i class="fas fa-sort-up"></i></button>
         <p>{props.upvote}</p>
       </div>
     </div>
